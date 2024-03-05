@@ -1,0 +1,64 @@
+//MEDIA QUERIES
+
+//EXTRA SMALL
+@mixin media-xs {
+    @media screen and (max-width: $breakpoint-xs) {
+        @content;
+    }
+}
+@mixin media-over-xs {
+    @media screen and (min-width: $breakpoint-xs) {
+        @content;
+    }
+}
+
+//SMALL
+@mixin media-under-sm {
+    @media screen and (max-width: $breakpoint-xs) {
+        @content;
+    }
+}
+@mixin media-sm {
+    @media screen and (min-width: $breakpoint-xs) and (max-width: $breakpoint-sm) {
+        @content;
+    }
+}
+@mixin media-over-sm {
+    @media screen and (min-width: $breakpoint-sm) {
+        @content;
+    }
+}
+
+//MEDIUM
+@mixin media-under-md {
+    @media screen and (max-width: $breakpoint-md) {
+        @content;
+    }
+}
+@mixin media-md {
+    @media screen and (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+        @content;
+    }
+}
+@mixin media-over-md {
+    @media screen and (min-width: $breakpoint-md) {
+        @content;
+    }
+}
+
+//LARGE
+@mixin media-under-lg {
+    @media screen and (max-width: $breakpoint-lg) {
+        @content;
+    }
+}
+@mixin media-lg {
+    @media screen and (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+        @content;
+    }
+}
+@mixin media-over-lg {
+    @media screen and (min-width: $breakpoint-lg) {
+        @content;
+    }
+}

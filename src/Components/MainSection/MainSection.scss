@@ -1,0 +1,48 @@
+@import '../../assets/scss/style.scss';
+
+
+.download {
+  a {
+    border-radius: 5px;
+    padding: 15px 15px;
+    transition: 0.3s;
+    width: 180px;
+    text-decoration: none;
+    text-decoration-color: initial;
+    border: 1px solid $cyan-pf;
+
+    &:hover {
+      background-color: $theme-hover-pf;
+      transition: 0.8s;
+    }
+  }
+}
+
+
+
+@include media-breakpoint-down(sm) {
+  .MainSection {
+    .content {
+      margin-top: 3rem;
+    }
+
+    .img-about {
+      display: none !important;
+    }
+
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .MainSection {
+    //padding-top: 2rem;
+    height: 100vh;
+    align-items: center;
+    .img-about {
+      height: 650px;
+      overflow: hidden;
+    }
+
+  }
+}
+

@@ -1,0 +1,184 @@
+{
+    "headerPortfolio": {
+        "logo": {
+          "pathImage": "https://renzoqc.dev/files/external/joel/logo.svg",
+          "altImage": "portfolio",
+          "withText": false
+        },
+        "menuHeader": {
+          "menu": {
+            "colorNumber": "cyan-pf",
+            "colorItem": "white",
+            "data": [
+              {
+                "name": "Home",
+                "goTo": "/"
+              },
+              {
+                "name": "About",
+                "goTo": "/about"
+              },
+              {
+                "name": "Projects",
+                "goTo": "/projects"
+              }
+    
+            ]
+          },
+          "logo": {
+            "path": "/"
+          },
+          "resume": {
+            "name": "Resume",
+            "goTo": "https://renzoqc.dev/files/external/joel/resume.pdf",
+            "color": "cyan-pf"
+          }
+        }
+      },
+      "studiesPortfolio": {
+        "header": {
+          "numberOrder": "02",
+          "text": "Where I’ve studied"
+        },
+        "arrExp": [
+          {
+            "company": "National University of Engineering",
+            "title": "Electronic Engineering",
+            "country": "🇵🇪",
+            "date": "August 2015 - March 2021",
+            "goTo": "https://portal.uni.edu.pe/",
+            "tasks": [
+            ]
+          }
+        ]
+      },
+    "experiencePortfolio": {
+        "header": {
+          "numberOrder": "01",
+          "text": "Where I’ve worked"
+        },
+        "arrExp": [
+          {
+            "company": "Tcontur",
+            "title": "Sofware Developer",
+            "country": "🇵🇪",
+            "date": "November 2021 - Current",
+            "goTo": "https://www.tcontur.com/",
+            "tasks": [
+              {
+                "content": "Analysis of the processes of transport companies in order to generate new products"
+              },
+              {
+                "content": "Backend software development for the promotion of new features of the online system trhough APIs."
+              },
+              {
+                "content": "Projects: Electronic Billing, ticket inspection, inventory and warehouse, purchases and expenses, web scrapping"
+              },{
+                "content": "Technologies: Django rest, Angular, Php, Docker, Google Cloud, MySQL, Raspbian, Pandas"
+              }
+            ]
+          },
+          {
+            "company": "Innova Entel",
+            "title": "Free Competitor",
+            "country": "🇵🇪",
+            "date": "Jun 2021 - August 2021",
+            "goTo": "https://www.linkedin.com/company/innova-entel/",
+            "tasks": [
+              {
+                "content": "Generate a python script that allowed us detect sections in manual reports using a trained convolutional neural network (Yolo v4) and OpenCV"
+              },
+              {
+                "content": "Technologies: Python, OpenCV, TensorFlow, YoloV4, Pandas"
+              }
+            ]
+          },
+          {
+            "company": "EGO Telecom",
+            "title": "Web Developer",
+            "country": "🇵🇪",
+            "date": "Jun 2020 - September 2020",
+            "goTo": "https://www.linkedin.com/company/egotucomunidad/about/",
+            "tasks": [
+              {
+                "content": "Web scraping with Python"
+              },
+              {
+                "content": "Web development with Vanilla Js and web maintenance with Django"
+              },
+              {
+                "content": "Technologies: HTML, CSS, JavaScript, Django, Python."
+              }
+            ]
+          }
+        ]
+      },
+    "licensePortfolio": {
+        "header": {
+          "numberOrder": "03",
+          "text": "Licenses and Certificates"
+        },
+        "arrExp": [
+          {
+            "company": "Sistemas UNI",
+            "title": "Modelamiento de datos",
+            "country": "🇵🇪",
+            "date": "May 2021",
+            "goTo": "https://drive.google.com/file/d/1vmThNBXltHYzzJg1WJX-_m9GzGHXpns7/view",
+            "tasks": [
+              {
+                "content": "Unified Modeling Language (UML)"
+            }
+            ]
+          },
+          {
+            "company": "IEEE UPCH Student Branch",
+            "title": "Random Forest y redes convolucionales",
+            "country": "🇵🇪",
+            "date": "Jun 2021",
+            "goTo": "https://ieee.org.pe/pagos/redes-neuronales/",
+            "tasks": [
+              {
+                "content": "Pandas (Software) · Python (Programming Language) · TensorFlow"
+              }
+            ]
+          },
+          {
+            "company": "Seccion Peru IEEE",
+            "title": "Microcontroladores PIC con XC8 y Code Configurator",
+            "country": "🇵🇪",
+            "date": "November 2020",
+            "goTo": "https://eventos.ieee.org.pe/download_mail/eyJpdiI6IjFSbWROb1hKRmxsRGtQMllCZGVFb2c9PSIsInZhbHVlIjoiRVBRWXVtMEE1ZzB1bFNJZmd2a1l0NjFPQzZmelhRWWR4RXhaa0RWcmNFMD0iLCJtYWMiOiI4NTRjZjE1NDA3ZDE2M2E2M2RhMTY0NTRlY2M1ZjJkYWUyYjA4NzNmMTg2OGYxNWEyN2M0ODE4MzI5MWU4ZTQ3In0=",
+            "tasks": [
+              {
+                "content": "GitHub · Embedded C"
+              }
+            ]
+          },
+          {
+            "company": "IBM",
+            "title": "Python for Data Science",
+            "country": "🇵🇪",
+            "date": "Ap 2020",
+            "goTo": "https://www.credly.com/badges/b5ebdcdf-4f29-474e-b97a-59cbbfb141fa/public_url",
+            "tasks": [
+              {
+                "content": "Pandas (Software) · Python (Programming Language)"
+              }
+            ]
+          },
+          {
+            "company": "CEPS UNI",
+            "title": "MS VBA EXCEL-Avanzado",
+            "country": "🇵🇪",
+            "date": "February 2020",
+            "goTo": "https://drive.google.com/file/d/1lhgVLrodJu1MQIHV9z1I_VHh_NbOTcGN/view",
+            "tasks": [
+              {
+                "content": "Excel (Software) - Excel VBA(Programing Language)"
+              }
+            ]
+          }
+        ]
+      }
+}

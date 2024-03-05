@@ -1,0 +1,57 @@
+@import '../../assets/scss/style.scss';
+
+.ProjectItemCard{
+  padding: 1.8rem 1rem;
+  background-color: $theme-project-card;
+  box-shadow: 0 10px 30px -15px #020c1bb3;
+  border-radius: 10px;
+  max-width: 500px;
+  @include media-breakpoint-up(xs) {
+    height: 100%;
+    width: 95%;
+  }
+  .project-summary {
+    strong {
+      color: $theme-pf;
+    }
+    a {
+      color: $theme-pf;
+      text-decoration: none;
+    }
+  }
+  .project-links {
+    .project-icon {
+      width: 20px;
+      color: #b0cdf1;
+      &:hover {
+        color: $theme-pf;
+        transition: 0.5s;
+      }
+      &:not(:hover) {
+        transition: 0.5s;
+      }
+    }
+  }
+  .project-img {
+    border: 3px solid var(--gray-2);
+    width: 100%;
+
+    height: 60%;
+    text-align: center;
+    img {
+      display: inline-block;
+      border-radius: 8px;
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      &:hover {
+        filter: blur(0) saturate(1) brightness(111%);
+        transition: 0.5s;
+      }
+      &:not(:hover) {
+        transition: 0.5s;
+      }
+    }
+  }
+}
+

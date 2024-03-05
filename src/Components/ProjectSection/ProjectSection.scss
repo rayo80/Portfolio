@@ -1,0 +1,61 @@
+@import '../../assets/scss/style.scss';
+
+
+.LastProjectsSection{
+    @include media-breakpoint-up(xs) {
+        padding: 4.3rem 4rem;
+        
+    }
+    padding: 5rem 0rem;
+    .swiper-container{
+        @include media-breakpoint-up(xs) {
+            width: 100%;
+            margin: auto;
+        }
+        touch-action: pan-y;
+        overflow: hidden;
+    }
+    .swiper-list{
+
+        list-style: none;
+        margin-left: -$grid-gutter;
+        display: flex;
+        min-width: 100%;
+        transition: transform 0.2s ease-out;
+    }
+    .swiper-list.is-swiping {
+        transition: none;
+    }
+
+    .items{
+        flex-shrink: 0;
+    }
+    .selector-section {
+        width: 100px;
+        text-align: center;
+        margin: auto;
+        .polygon {
+            stroke: $theme-pf;
+            fill: transparent;
+            :hover{
+                fill: $theme-pf;
+                transition: 0.5s;
+            }
+          }
+
+      }
+
+    /**/ 
+    @media only screen and (max-width: 768px) {
+    .projects__allItems {
+        flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 7rem;
+        gap: 5rem;
+        .projectItem__img {
+            width: 100%;
+        }
+    }
+    }
+}

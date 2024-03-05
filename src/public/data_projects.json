@@ -1,0 +1,62 @@
+{
+  "headerPortfolio": {
+    "logo": {
+      "pathImage": "https://renzoqc.dev/files/external/joel/logo.svg",
+      "altImage": "portfolio",
+      "withText": false
+    },
+    "menuHeader": {
+      "menu": {
+        "colorNumber": "cyan-pf",
+        "colorItem": "white",
+        "data": [
+          {
+            "name": "Home",
+            "goTo": "/"
+          },
+          {
+            "name": "About",
+            "goTo": "/about"
+          },
+          {
+            "name": "Projects",
+            "goTo": "/projects"
+          }
+
+        ]
+      },
+      "logo": {
+        "path": "/"
+      },
+      "resume": {
+        "name": "Resume",
+        "goTo": "https://renzoqc.dev/files/external/joel/resume.pdf",
+        "color": "cyan-pf"
+      }
+    }
+  },
+  "projectsPortfolio": {
+    "header": {
+      "numberOrder": "04",
+      "text": "Personal Projects"
+    },
+    "projects": [
+      {
+        "img": {
+          "source": "https://storage.googleapis.com/svm-docs/images/portfolio/2024-03-01_20-16.png",
+          "external": true
+        },
+        "description": {
+          "type": "Full Stack Project",
+          "title": "Aula 365",
+          "stack": "Angular, Material UI, Django Rest, Docker, GCP",
+          "github": "https://github.com/",
+          "info": "A <strong>basic management system</strong> , where allow create students and generate course registrations. \n - Cliente: Angular with Material UI cumpliendo los requerimientos usando componentes y servicios propios como base. \n - Servidor: Una API simple hecha en Django Rest Framework",
+          "url": "https://chimerical-mermaid-f9a192.netlify.app"
+        }
+      }
+
+
+    ]
+  }
+}

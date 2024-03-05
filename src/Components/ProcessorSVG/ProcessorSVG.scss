@@ -1,0 +1,38 @@
+@import '../../assets/scss/style.scss';
+
+.div{
+    height:120%;
+    transform:scale(1.1, 1);
+    
+    margin: auto auto;
+}
+
+
+#processor_svg{
+    filter:drop-shadow(2px 0.5px 2.5px );
+    path{
+        fill:$cyan-pf;
+		
+    }
+    path:hover{
+        fill:$cyan;
+        stroke-width:4%;	
+        stroke:$cyan-pf;
+        stroke-opacity:3%;
+        transition: all 1.5s ease-out;
+    }
+    .st1{
+        filter:drop-shadow(4px 1px 4px );
+    }
+    .st1:hover{
+        stroke-width:4%;
+        stroke-linecap:round;
+        stroke:$cyan-pf;
+        stroke-opacity:3%;			
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+		
+}

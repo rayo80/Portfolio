@@ -1,0 +1,302 @@
+{
+  "headerPortfolio": {
+    "logo": {
+      "pathImage": "https://storage.googleapis.com/svm-docs/images/logo.svg",
+      "altImage": "portfolio",
+      "withText": false
+    },
+    "menuHeader": {
+      "menu": {
+        "colorNumber": "cyan-pf",
+        "colorItem": "white",
+        "data": [
+          {
+            "name": "Home",
+            "goTo": "/"
+          },
+          {
+            "name": "About",
+            "goTo": "/about"
+          },
+          {
+            "name": "Projects",
+            "goTo": "/projects"
+          }
+
+        ]
+      },
+      "logo": {
+        "path": "/"
+      },
+      "resume": {
+        "name": "Resume",
+        "goTo": "https://storage.googleapis.com/svm-docs/CV-SergioVilla-EN.pdf",
+        "color": "cyan-pf"
+      }
+    }
+  },
+  
+  "sidesPortfolio": {
+    "left": {
+      "github": {
+        "show": true,
+        "url": "https://github.com/joelvilcav"
+      },
+      "instagram": {
+        "show": true,
+        "url": "https://www.instagram.com"
+      },
+      "twitter": {
+        "show": true,
+        "url": "https://twitter.com"
+      },
+      "linkedin": {
+        "show": true,
+        "url": "https://www.linkedin.com/in/jjvilcavuni/"
+      },
+      "editor": {
+        "show": true,
+        "url": "https://codepen.io"
+      }
+    },
+    "right": {
+      "email": "jvilcav29@gmail.com"
+    }
+  },
+  "homePortfolio": {
+    "greeting": "Hi, my name is",
+    "name": "Sergio Villa.",
+    "subtitle": "I develop technology",
+    "content": "I’m a Software Developer specializing in building digital solutions. I’m passionate about how software and hardware products that help people and companies to improve their tecnhological experiences, not support them.",
+    "resume": {
+      "text": "Download Resume",
+      "goTo": "https://storage.googleapis.com/svm-docs/CV-SergioVilla-EN.pdf"
+    },
+    "img": {
+      "path": "https://renzoqc.dev/files/memoji-mac.png",
+      "alt": "photo"
+    }
+  },
+  "aboutPortfolio": {
+    "header": {
+      "numberOrder": "01",
+      "text": "About Me"
+    },
+    "pathImage": "https://storage.googleapis.com/svm-docs/images/portfolio/estilo%20anime.jpg",
+    "arrAbout": 
+      "Sergio Villa works as a <strong>Software Developer</strong> and he’s been responsible for the analysis, design and development of different apis, also he’s helping build the workflow for diferents modern webs. He’s passionate about software with best practices, clean code and unit testing and how it interacts with different devices, so he’s always looking for participate in projects that impact society.\n"
+ ,
+    "arrThoughts": [
+      "If you can imagine it you can program it",
+      "I am an engineer, some solution will occur to me",
+      "You choose where you go, nothing should stop you."
+    ]
+  },
+  "skillsPortfolio": {
+    "header": {
+      "numberOrder": "03",
+      "text": "Skillsets"
+    },
+    "arrTech": [
+      { "name": "CSS3", "position": { "top": "10%", "left": "15%" } },
+      { "name": "MySQL", "position": { "top": "4%", "left": "26%" } },
+      { "name": "Docker", "position": { "top": "30%", "left": "22%" } },
+      { "name": "Git", "position": { "top": "25%", "left": "46%" } },
+      { "name": "Sass", "position": { "top": "10%", "left": "56%" } },
+      { "name": "Linux", "position": { "top": "38%", "left": "66%" } },
+      { "name": "Javascript", "position": { "top": "12%", "left": "71%" } },
+      { "name": "Php", "position": { "top": "28%", "left": "85%" } },
+      { "name": "Data Science", "position": { "top": "90%", "left": "11%" } },
+      { "name": "MongoDB", "position": { "top": "95%", "left": "30%" } },
+      { "name": "Cloud", "position": { "top": "85%", "left": "55%" } },
+      { "name": "Typescript", "position": { "top": "94%", "left": "73%" } },
+      { "name": "Raspbian", "position": { "top": "82%", "left": "84%" } }
+    ]
+  },
+  "experiencePortfolio": {
+    "header": {
+      "numberOrder": "01",
+      "text": "Where I’ve worked"
+    },
+    "arrExp": [
+      {
+        "company": "R&G Solutions",
+        "title": "Full Stack Developer",
+        "country": "🇵🇪",
+        "date": "December 2021 - Current",
+        "goTo": "https://www.rygsol.com/",
+        "tasks": [
+          {
+            "content": "Backend software development for the promotion of new features of the online system trhough APIs."
+          },
+          {
+            "content": "Generation of current logistics reports and comparative charts displayed on dashboards. "
+          },
+          {
+            "content": "Management and production of on-premise servers - Ubuntu 18."
+          },{
+            "content": "Technologies: NestJs, TypeScript, ReactJs, Docker, NodeJs, JavaScript, MySQL, MongoDB, Java."
+          }
+        ]
+      },
+      {
+        "company": "EGO Telecom",
+        "title": "Web Developer",
+        "country": "🇵🇪",
+        "date": "August 2021 - November 2021",
+        "goTo": "https://www.linkedin.com/company/egotucomunidad/about/",
+        "tasks": [
+          {
+            "content": "Web scraping with Python."
+          },
+          {
+            "content": "Web development with Vanilla Js."
+          },
+          {
+            "content": "Technologies: HTML, CSS, JavaScript, Python."
+          }
+        ]
+      }
+    ]
+  },
+  "studiesPortfolio": {
+    "header": {
+      "numberOrder": "02",
+      "text": "Where I’ve studied"
+    },
+    "arrExp": [
+      {
+        "company": "National University of E",
+        "title": "Full Stack Developer",
+        "country": "🇵🇪",
+        "date": "December 2021 - Current",
+        "goTo": "https://www.rygsol.com/",
+        "tasks": [
+          {
+            "content": "Backend software development for the promotion of new features of the online system trhough APIs."
+          },
+          {
+            "content": "Generation of current logistics reports and comparative charts displayed on dashboards. "
+          },
+          {
+            "content": "Management and production of on-premise servers - Ubuntu 18."
+          },{
+            "content": "Technologies: NestJs, TypeScript, ReactJs, Docker, NodeJs, JavaScript, MySQL, MongoDB, Java."
+          }
+        ]
+      }
+    ]
+  },
+
+  "projectsPortfolio": {
+    "header": {
+      "numberOrder": "04",
+      "text": "Personal Projects"
+    },
+    "projects": [
+      {
+        "img": {
+          "source": "https://renzoqc.dev/files/external/joel/company_2.jpeg",
+          "external": true
+        },
+        "description": {
+          "type": "Featured Project",
+          "title": "An Ecommerce",
+          "info": "A very <strong>intuitive ecommerce</strong> where you can simulate to buying sneakers, add to cart based on the stock and remove the product from there if you want to.",
+          "stack": "ReactJs, Firebase, JavaScript, HTML, CSS",
+          "github": "https://github.com/joelvilcav/ecommerce-coder",
+          "url": "https://ecommerce-coder-zeta.vercel.app/"
+        }
+      },
+      {
+        "img": {
+          "source": "https://renzoqc.dev/files/external/joel/company_1.jpeg"
+        },
+        "description": {
+          "type": "Featured Project",
+          "title": "Cryptocoins quoter",
+          "info": "A <strong>Frontend app</strong> where anyone can quote their favorite cryptocoin based on some local coins such as USD, Euro, Peruvian Sol, etc.",
+          "stack": "ReactJs, JavaScript, HTML, CSS",
+          "github": "https://github.com/joelvilcav/cryptocoins-quoter",
+          "url": "https://cryptocoins-quoter.vercel.app/"
+        }
+      }
+    ]
+
+
+  },
+  "projectsSection": {
+    "subtitle": {
+      "numberOrder": "02",
+      "text": "Personal Projects",
+      "width": 50
+    },
+    "projects": [
+      {
+        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/aula365(400x500).png",
+        "type": "Full Stack Project",
+        "title": "Aula 365",
+        "stack": "Angular, Material UI, Django Rest, Docker, GCP",
+        "github": "https://github.com/",
+        "info": "A simple <strong>basic crud</strong> , where comunicate backend and frontend for course registrations",
+        "url": "https://chimerical-mermaid-f9a192.netlify.app"
+      },
+      {
+        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
+        "type": "Backend Project",
+        "title": "Purchase and Expences register",
+        "stack": "Python, Django-rest,",
+        "github": "https://github.com/",
+        "info": "The API includes the registration of a basic purchase(items with products, supplier). Each registration generates stock variations",
+        "url": "google.com"
+      },
+      {
+        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
+        "type": "Web App Project",
+        "title": "MiniTienda",
+        "stack": "JavaScript, Django, Bootstrap",
+        "github": "https://github.com/rayo80/Minitienda_Django",
+        "info": "Quick product creation project in django with list view with pages and details view per product",
+        "url": "https://github.com/rayo80/Minitienda_Django"
+      },
+      {
+        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
+        "type": "Computer vision, API Project",
+        "title": "Detector-Enteldocs",
+        "stack": "Python, OpenCV-DNN, Yolo",
+        "github": "https://github.com/rayo80/Detector_Enteldocs",
+        "info": "Generation of a tool that allowed us detect signature sections in manual reports using OpenCV to  a trained convolutional neural network(Yolo)",
+        "url": "google.com"
+      },
+      {
+        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
+        "type": "Computer vision, API Project",
+        "title": "volume variation using mediapipe",
+        "stack": "Python, OpenCV",
+        "github": "https://github.com/",
+        "info": "Python script that allows you to control the computer volume using gestures",
+        "url": "google.com"
+      }
+
+
+    ],
+    "arrAbout": [
+      "Lorem Ipsum is simply dummy text of the printing.\n",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\n",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\n",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries\n"
+    ]
+  },
+  "contactPortfolio": {
+    "header": {
+      "numberOrder": "05",
+      "text": "What’s Next?"
+    },
+    "phrase": "Get In Touch",
+    "content1": "Thanks for stopping by, I’m currently looking to join a new team of creative developers. Ask for my resume or see if we can build something amazing together?",
+    "content2": "I’d love to hear from you!",
+    "buttonGoTo": "sergio.villa.m@uni.pe",
+    "buttonText": "Say Hello",
+    "signature": "Designed by Renzo Quispe & Built by Sergio Villa"
+  }
+}

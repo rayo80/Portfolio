@@ -1,0 +1,77 @@
+
+@import "_amp_functions";
+
+$main-font: "Roboto";
+
+$xs: 0.7rem !default;
+$sm: 0.875rem !default;
+$base: 1rem !default;
+$lg: 1.125rem !default;
+$xl: 1.25rem !default;
+$xl-3: 1.875rem !default;
+$xl-4: 2.25rem !default;
+$xl-6: 3.75rem !default;
+
+$text_sizes: (
+    "xs": $xs,
+    "sm": $sm,
+    "base": $base,
+    "lg": $lg,
+    "xl": $xl,
+    "3xl": $xl-3,
+    "4xl": $xl-4,
+    "6xl": $xl-6,
+);
+
+
+@each $size in $text_sizes {
+    $name: nth($size, 1);
+    $value: nth($size, 2);
+
+    .SV-text-#{$name} {
+        font-size: $value;
+        color: #0f0c0c;
+    }
+}
+
+$prefix: "sm";
+$prefix: "lg";
+
+
+
+@mixin text-style($style) {
+    .xs-#{$style} {
+        @content;
+
+    }
+  }
+
+@each $size in $text_sizes {
+    $name: nth($size, 1);
+    $value: nth($size, 2);
+    .SV-text-#{$name}{
+        font-size: $value;
+    };
+
+}
+
+
+@each $size in $text_sizes {
+    $name: nth($size, 1);
+    $value: nth($size, 2);
+        
+    @include text-style('SV-text-#{$name}'){
+        @include media-breakpoint-down(sm){
+            font-size: $value;
+            color: #cf1111,
+        }
+    };
+    
+}
+
+
+
+
+
+
+
