@@ -21,5 +21,13 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src", "vite-env.d.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "exclude": [
+    "node_modules",
+    "build",
+    "docs",
+    "src/**/*.stories.tsx",
+    "src/**/*.test.tsx",
+    "jest.setup.ts"
+  ],
 }

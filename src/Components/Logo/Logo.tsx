@@ -1,7 +1,5 @@
 import "./Logo.scss";
 import { LogoProps } from "./Logo.types";
-import { linkTo } from "@storybook/addon-links";
-import { Col, Row } from "../Grid/Grid";
 
 const Logo = ({ pathImage, altImage, withText }: LogoProps) => {
   return (

@@ -1,8 +1,6 @@
-import {Link} from 'react-router-dom';
 import { ProjectItemProps } from './ProjectItem.types';
 import "./ProjectItem.scss";
-import Image from "../Image/Image";
-import { Col, Row } from '../Grid/Grid';
+import { Row } from '../Grid/Grid';
 
 const ProjectItem = ({
     img  = 'img/projects/projectImg',

@@ -1,7 +1,6 @@
 import './Image.scss';
 import { ImageProps } from './Image.types';
-import {linkTo} from "@storybook/addon-links";
-import { Col, Row } from '../Grid/Grid';
+
 
 
 const Image = ({

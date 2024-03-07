@@ -219,7 +219,6 @@ const ProjectsPortfolio = ({ header, arrProjects }: ProjectsPortfolioProps) => {
     myKey: number;
   }) => {
 
-    const stackArray = getArrayFromString(props.content.description.stack)
     return (
         <div className={'project-mobile-card'} key={props.myKey}>
           <p className={"RQ-theme RQ-f-16 RQ-text-left"}>

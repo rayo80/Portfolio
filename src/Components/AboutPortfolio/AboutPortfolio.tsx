@@ -2,7 +2,6 @@ import "./AboutPortfolio.scss";
 import { AboutPortfolioProps } from "./AboutPortfolio.types";
 import { Col, Row } from "../Grid/Grid";
 import Image from "../Image/Image";
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const AboutPortfolio = ({
@@ -11,8 +10,6 @@ const AboutPortfolio = ({
   arrAbout,
   arrThoughts,
 }: AboutPortfolioProps) => {
-
-  const arrCircle: number[] = Array.from(Array(arrAbout.length).keys());
 
 
   return (

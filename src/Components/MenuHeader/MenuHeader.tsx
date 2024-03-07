@@ -1,6 +1,6 @@
 import './MenuHeader.scss';
 import { MenuHeaderProps } from './MenuHeader.types';
-import { Col, Row } from '../Grid/Grid';
+import {Row } from '../Grid/Grid';
 import "./MenuHeader.scss";
 
 const MenuHeader = ({

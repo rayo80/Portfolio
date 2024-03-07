@@ -1,7 +1,6 @@
 import React from 'react';
 import HeaderPortfolio from '../../Components/HeaderPortfolio';
 import data from '../../public/data_about.json'
-import AboutPortfolio from '../../Components/AboutPortfolio';
 import ExperiencePortfolio from '../../Components/ExperiencePortfolio';
 
 

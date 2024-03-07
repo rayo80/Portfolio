@@ -2,7 +2,6 @@ import React from 'react';
 import HeaderPortfolio from '../../Components/HeaderPortfolio';
 import MainSection from '../../Components/MainSection/MainSection';
 import data from '../../public/data.json'
-import ProjectItem from '../../Components/ProjectItem/ProjectItem';
 import AboutPortfolio from '../../Components/AboutPortfolio';
 import ProjectsSection from '../../Components/ProjectSection/ProjectsSection';
 import './MainPagePortfolio.scss'

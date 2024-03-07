@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 
 import { ProjectSectionProps } from './ProjectSection.types';
 import ProjectItem from '../ProjectItem/ProjectItem';
-import { Col, Row } from '../Grid/Grid';
+import { Col } from '../Grid/Grid';
 import "./ProjectSection.scss";
 import SubtitlePortfolio from '../SubtitlePortfolio/SubtitlePorfolio';
 import { getRefValue, useStateRef } from '../../lib/custom_hooks';
@@ -101,7 +101,8 @@ const ProjectsSection = ({subtitle, projects}: ProjectSectionProps) => {
 
   };
 
-  const OptionMove = (e: React.MouseEventHandler<HTMLAnchorElement> | React.MouseEvent<HTMLAnchorElement>, key: number) => {
+  const OptionMove = (key: number) => {
+      
       currentOffsetXRef.current = getRefValue(offsetXRef)
       const containerWidth = getRefValue(containerRef).offsetWidth;
       const scrollWidth = getRefValue(containerRef).scrollWidth;
@@ -149,14 +150,14 @@ const ProjectsSection = ({subtitle, projects}: ProjectSectionProps) => {
         <a
           style={{ cursor: "pointer" }}
           key={0}
-          onClick={(e) => OptionMove(e, 0)}
+          onClick={() => OptionMove(0)}
         >
           <PolygonLeft listKey={0} />
         </a>
         <a
           style={{ cursor: "pointer" }}
           key={1}
-          onClick={(e) => OptionMove(e, 1)}
+          onClick={() => OptionMove(1)}
         >
           <PolygonRight listKey={1} />
         </a>

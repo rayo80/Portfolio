@@ -1,6 +1,5 @@
-import data from './public/data.json'
 import './App.scss';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import MainPage from './pages/MainPagePortfolio/MainPagePortfolio';
 import AboutPage from './pages/AboutPagePortfolio/AboutPagePortfolio';
 import ProjectsPage from './pages/ProjectsPagePortfolio/ProjectsPagePortfolio';

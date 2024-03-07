@@ -5,6 +5,7 @@ import { Col, Row } from "../Grid/Grid";
 import Logo from "../Logo/Logo";
 import MenuHeader from "../MenuHeader/MenuHeader";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const HeaderPortfolio = ({ logo, menuHeader }: HeaderPortfolioProps) => {
   const [showSideBar, setShowSideBar] = useState<Boolean>(false);
@@ -84,13 +85,13 @@ const HeaderPortfolio = ({ logo, menuHeader }: HeaderPortfolioProps) => {
         <ul className="RQ-f-code">
           {menuHeader.menu.data.map((item, i) => (
             <li key={i} className="RQ-d-flex RQ-justify-center RQ-align-center">
-              <a
-                  href={item.goTo}
+              <Link
+                  to={item.goTo}
                   className={"RQ-white"}
                   onClick={() => changeStateSideBar()}
               >
                 {item.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

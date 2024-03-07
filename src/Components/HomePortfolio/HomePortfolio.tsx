@@ -1,9 +1,7 @@
 import "./HomePortfolio.scss";
 import { HomePortfolioProps } from "./HomePortfolio.types";
-import { linkTo } from "@storybook/addon-links";
 import { Col, Row } from "../Grid/Grid";
-import Logo from "../Logo/Logo";
-import Image from "../Image/Image";
+
 
 const HomePortfolio = ({
   greeting,
