@@ -10,11 +10,7 @@ import SkillsPortfolio from '../../Components/SkillsPortfolio';
 const MainPage = () => {
     return ( 
     <>
-      <div className={"root-base-portfolio"}>
-        <React.Suspense fallback="Loading...">
-          <HeaderPortfolio logo={data.headerPortfolio.logo} menuHeader={data.headerPortfolio.menuHeader}></HeaderPortfolio>
-        </React.Suspense>
-  
+
         <div className="content-center-sides">
             <MainSection
                 greeting={data.homePortfolio.greeting}
@@ -52,8 +48,7 @@ const MainPage = () => {
         </div>
   
   
-  
-      </div>
+
     </>
 
      );

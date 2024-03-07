@@ -1,8 +1,11 @@
 import './App.scss';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MainPage from './pages/MainPagePortfolio/MainPagePortfolio';
 import AboutPage from './pages/AboutPagePortfolio/AboutPagePortfolio';
 import ProjectsPage from './pages/ProjectsPagePortfolio/ProjectsPagePortfolio';
+import React from 'react';
+import HeaderPortfolio from './Components/HeaderPortfolio';
+import data from './public/data.json'
 
 function App() {
 
@@ -27,8 +30,23 @@ function App() {
 
 
     // </div>
-    <>
+  <>
     <Router>
+      <div className={"root-base-portfolio"}>
+        <React.Suspense fallback="Loading...">
+            <HeaderPortfolio logo={data.headerPortfolio.logo} menuHeader={data.headerPortfolio.menuHeader}></HeaderPortfolio>
+          </React.Suspense>
+        <Routes>
+          <Route path="/" element={<MainPage/>}/>
+          <Route path="/about" element={<AboutPage/>}>
+          </Route>
+          <Route path="/projects" element={<ProjectsPage/>}>
+          </Route>
+        </Routes>
+      </div>
+    </Router> 
+  </>)
+  {/* <Router>
       <Routes>
         <Route path="/about" element={<AboutPage/>}>
         </Route>
@@ -36,11 +54,8 @@ function App() {
         </Route>
         <Route path="/" element={<MainPage/>}/>
       </Routes>
-    </Router>
-  </>  
-    
+    </Router> */}
 
-  )
 }
 
 export default App

@@ -5,7 +5,7 @@ import { Col, Row } from "../Grid/Grid";
 import Logo from "../Logo/Logo";
 import MenuHeader from "../MenuHeader/MenuHeader";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const HeaderPortfolio = ({ logo, menuHeader }: HeaderPortfolioProps) => {
   const [showSideBar, setShowSideBar] = useState<Boolean>(false);
