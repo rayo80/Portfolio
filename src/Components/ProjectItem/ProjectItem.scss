@@ -5,7 +5,7 @@
   background-color: $theme-project-card;
   box-shadow: 0 10px 30px -15px #020c1bb3;
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 700px;
   @include media-breakpoint-up(xs) {
     height: 100%;
     width: 95%;
@@ -36,13 +36,13 @@
     border: 3px solid var(--gray-2);
     width: 100%;
 
-    height: 60%;
+    height: 55%;
     text-align: center;
     img {
       display: inline-block;
       border-radius: 8px;
       max-width: 100%;
-      height: 100%;
+      height: 90%;
       object-fit: cover;
       &:hover {
         filter: blur(0) saturate(1) brightness(111%);

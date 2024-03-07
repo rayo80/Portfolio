@@ -244,7 +244,7 @@
       {
         "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
         "type": "Backend Project",
-        "title": "Purchase and Expences register",
+        "title": "Expenses App",
         "stack": "Python, Django-rest,",
         "github": "https://github.com/",
         "info": "The API includes the registration of a basic purchase(items with products, supplier). Each registration generates stock variations",
