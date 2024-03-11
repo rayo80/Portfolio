@@ -50,7 +50,7 @@
           "type": "Full Stack Project",
           "title": "Aula 365",
           "stack": "Angular, Material UI, Django Rest, Docker, GCP",
-          "github": "https://github.com/",
+          "github": "https://github.com/rayo80/ProyectoFinal-Coder",
           "info": "A <strong>basic management system</strong> , where allow create students and generate course registrations. \n - Cliente: Angular with Material UI cumpliendo los requerimientos usando componentes y servicios propios como base. \n - Servidor: Una API simple hecha en Django Rest Framework",
           "url": "https://chimerical-mermaid-f9a192.netlify.app"
         }

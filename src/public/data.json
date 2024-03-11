@@ -237,7 +237,7 @@
         "type": "Full Stack Project",
         "title": "Aula 365",
         "stack": "Angular, Material UI, Django Rest, Docker, GCP",
-        "github": "https://github.com/",
+        "github": "https://github.com/rayo80/ProyectoFinal-Coder",
         "info": "A simple <strong>basic crud</strong> , where comunicate backend and frontend for course registrations",
         "url": "https://chimerical-mermaid-f9a192.netlify.app"
       },
@@ -246,7 +246,7 @@
         "type": "Backend Project",
         "title": "Expenses App",
         "stack": "Python, Django-rest,",
-        "github": "https://github.com/",
+        "github": "https://github.com/rayo80/api_compras",
         "info": "The API includes the registration of a basic purchase(items with products, supplier). Each registration generates stock variations",
         "url": "google.com"
       },
@@ -273,7 +273,7 @@
         "type": "Computer vision, API Project",
         "title": "volume variation using mediapipe",
         "stack": "Python, OpenCV",
-        "github": "https://github.com/",
+        "github": "https://github.com/rayo80/Detector_Enteldocs",
         "info": "Python script that allows you to control the computer volume using gestures",
         "url": "google.com"
       }
