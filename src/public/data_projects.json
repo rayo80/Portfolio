@@ -52,7 +52,7 @@
           "stack": "Django-rest, Angular, GCP, Docker, Tailwind, Material UI",
           "github": "https://github.com/rayo80",
           "info": "A <strong>purchases management system</strong> , allows you to keep intelligent control of your purchases and their respective payments, also you could manage suppliers and products. \n - Cliente: Angular with use Fuse Theme as base. \n - Servidor: An API made in Django Rest Framework",
-          "url": "https://chimerical-mermaid-f9a192.netlify.app"
+          "url": "https://negociosmart.netlify.app/purchases"
         }
       },
       {
