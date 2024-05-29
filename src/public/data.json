@@ -67,7 +67,7 @@
     "greeting": "Hi, my name is",
     "name": "Sergio Villa.",
     "subtitle": "I develop technology",
-    "content": "I’m a Software Developer specializing in building digital solutions. I’m passionate about how software and hardware products that help people and companies to improve their tecnhological experiences, not support them.",
+    "content": "I’m a Software Developer specializing in building digital solutions. I’m passionate about how software and hardware products that help people and companies to improve their tecnhological experiences.",
     "resume": {
       "text": "Download Resume",
       "goTo": "https://storage.googleapis.com/svm-docs/CV-SergioVilla-EN.pdf"
@@ -242,17 +242,26 @@
         "url": "https://chimerical-mermaid-f9a192.netlify.app"
       },
       {
-        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
+        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/negociosmart(400x500).png",
         "type": "Backend Project",
-        "title": "Expenses App",
-        "stack": "Python, Django-rest,",
-        "github": "https://github.com/rayo80/api_compras",
-        "info": "The API includes the registration of a basic purchase(items with products, supplier). Each registration generates stock variations",
-        "url": "google.com"
+        "title": "Negocio Smart",
+        "stack": "Django-rest, Angular, GCP, Docker, Tailwind, Material UI",
+        "github": "https://github.com/rayo80",
+        "info": "This app allows you to keep intelligent control of your purchases and their respective payments, also you could manage suppliers and products",
+        "url": "https://negociosmart.netlify.app/purchases"
+      },
+      {
+        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/dfviewer(400x500).png",
+        "type": "Backend Project",
+        "title": "Dataframe Viewer",
+        "stack": "Pandas, Streamlit",
+        "github": "https://github.com/rayo80/df_viewer",
+        "info": "From a dataframe you can order and filter by its columns",
+        "url": "https://dfwiever.streamlit.app/"
       },
       {
         "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
-        "type": "Web App Project",
+        "type": "Data Analitics",
         "title": "MiniTienda",
         "stack": "JavaScript, Django, Bootstrap",
         "github": "https://github.com/rayo80/Minitienda_Django",
