@@ -47,11 +47,11 @@
           "external": true
         },
         "description": {
-          "type": "Backend Project",
+          "type": "Full Stack Project",
           "title": "Negocio Smart",
           "stack": "Django-rest, Angular, GCP, Docker, Tailwind, Material UI",
           "github": "https://github.com/rayo80",
-          "info": "A <strong>purchases management system</strong> , allows you to keep intelligent control of your purchases and their respective payments, also you could manage suppliers and products. \n - Cliente: Angular with use Fuse Theme as base. \n - Servidor: An API made in Django Rest Framework",
+          "info": "A <strong>purchases management system</strong> , allows you to keep intelligent control of your purchases and their payments, also you could manage suppliers and products. <br> Client: Angular with use Fuse Theme (Tailwind to style) .<br>  Server: An API made in Django Rest Framework.",
           "url": "https://negociosmart.netlify.app/purchases"
         }
       },
@@ -65,8 +65,22 @@
           "title": "Aula 365",
           "stack": "Angular, Material UI, Django Rest, Docker, GCP",
           "github": "https://github.com/rayo80/ProyectoFinal-Coder",
-          "info": "A <strong>basic management system</strong> , where allow create students and generate course registrations. \n - Cliente: Angular with Material UI . \n - Servidor: An API made in Django Rest Framework deployment using Docker and GCP",
+          "info": "A <strong>basic management system</strong> , where allow create students and generate course registrations. <br> Client: Angular with Material UI deployment in Netlify. <br> Server: An API made in DRF deployment using Docker and GCP.",
           "url": "https://chimerical-mermaid-f9a192.netlify.app"
+        }
+      },
+      {
+        "img": {
+          "source": "https://storage.googleapis.com/svm-docs/portfolio/signature.png",
+          "external": true
+        },
+        "description": {
+          "type": "Computer Vision Project",
+          "title": "Signature Detector",
+          "stack": "Streamlit, GCP, Docker, Yolo, OpenCV",
+          "github": "https://github.com/rayo80/signature_detector",
+          "info": "This <strong>object detection app </strong> allows you to detect signature sections in physical documents; the images have previously been cropped, filtered and adapted to enter the Yolo Network.",
+          "url": "https://signature-whg6gp2yza-uc.a.run.app/"
         }
       }
 

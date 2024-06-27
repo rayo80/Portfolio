@@ -1,7 +1,7 @@
 {
   "headerPortfolio": {
     "logo": {
-      "pathImage": "https://storage.googleapis.com/svm-docs/images/logo.svg",
+      "pathImage": "https://storage.googleapis.com/svm-docs/portfolio/logo.svg",
       "altImage": "portfolio",
       "withText": false
     },
@@ -233,7 +233,7 @@
     },
     "projects": [
       {
-        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/aula365(400x500).png",
+        "img": "https://storage.googleapis.com/svm-docs/portfolio/aula365(400x500).png",
         "type": "Full Stack Project",
         "title": "Aula 365",
         "stack": "Angular, Material UI, Django Rest, Docker, GCP",
@@ -242,8 +242,8 @@
         "url": "https://chimerical-mermaid-f9a192.netlify.app"
       },
       {
-        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/negociosmart(400x500).png",
-        "type": "Backend Project",
+        "img": "https://storage.googleapis.com/svm-docs/portfolio/negociosmart(400x500).png",
+        "type": "Full Stack Project",
         "title": "Negocio Smart",
         "stack": "Django-rest, Angular, GCP, Docker, Tailwind, Material UI",
         "github": "https://github.com/rayo80",
@@ -251,7 +251,16 @@
         "url": "https://negociosmart.netlify.app/purchases"
       },
       {
-        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/dfviewer(400x500).png",
+        "img": "https://storage.googleapis.com/svm-docs/portfolio/signature(400x500).png",
+        "type": "Computer Vision Project",
+        "title": "Signature Detector",
+        "stack": "Streamlit, GCP, Docker, Yolo, OpenCV",
+        "github": "https://github.com/rayo80/signature_detector",
+        "info": "This app allows you detect signature sections in physical documents; the images have previously been cropped, filtered and adapted to enter the Yolo Network",
+        "url": "https://signature-whg6gp2yza-uc.a.run.app/"
+      },
+      {
+        "img": "https://storage.googleapis.com/svm-docs/portfolio/dfviewer(400x500).png",
         "type": "Backend Project",
         "title": "Dataframe Viewer",
         "stack": "Pandas, Streamlit",
@@ -260,7 +269,7 @@
         "url": "https://dfwiever.streamlit.app/"
       },
       {
-        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
+        "img": "https://storage.googleapis.com/svm-docs/portfolio/in-progress.jpg",
         "type": "Data Analitics",
         "title": "MiniTienda",
         "stack": "JavaScript, Django, Bootstrap",
@@ -269,7 +278,7 @@
         "url": "https://github.com/rayo80/Minitienda_Django"
       },
       {
-        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
+        "img": "https://storage.googleapis.com/svm-docs/portfolio/in-progress.jpg",
         "type": "Computer vision, API Project",
         "title": "Detector-Enteldocs",
         "stack": "Python, OpenCV-DNN, Yolo",
@@ -278,7 +287,7 @@
         "url": "google.com"
       },
       {
-        "img": "https://storage.googleapis.com/svm-docs/images/portfolio/in-progress.jpg",
+        "img": "https://storage.googleapis.com/svm-docs/portfolio/in-progress.jpg",
         "type": "Computer vision, API Project",
         "title": "volume variation using mediapipe",
         "stack": "Python, OpenCV",
