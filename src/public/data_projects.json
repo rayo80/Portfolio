@@ -43,7 +43,21 @@
     "projects": [
       {
         "img": {
-          "source": "https://storage.googleapis.com/svm-docs/images/portfolio/negociosmart.png",
+          "source": "https://storage.googleapis.com/svm-docs/portfolio/sportt.png",
+          "external": true
+        },
+        "description":       {
+          "type": "Full Stack Project",
+          "title": "Sportt Ecommerce",
+          "stack": "Next, Tailwind, Shadcn, Nest.js, MercadoPago",
+          "github": "https://github.com/rayo80",
+          "info": "A custom <strong>e-commerce</strong>, designed to meet the specific needs of the client, includes mercadopago payment integration, a custom admin panel, and a user-friendly interface. <br> Client: Next.js with Tailwind and Shadcn. <br> Server: Nest.js with Prisma ORM.",
+          "url": "https://sporttperu.com/"
+        }
+      },
+      {
+        "img": {
+          "source": "https://storage.googleapis.com/svm-docs/portfolio/negociosmart.png",
           "external": true
         },
         "description": {
@@ -57,7 +71,7 @@
       },
       {
         "img": {
-          "source": "https://storage.googleapis.com/svm-docs/images/portfolio/aula365.png",
+          "source": "https://storage.googleapis.com/svm-docs/portfolio/aula365.png",
           "external": true
         },
         "description": {

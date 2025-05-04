@@ -34,7 +34,10 @@ function App() {
     <Router>
       <div className={"root-base-portfolio"}>
         <React.Suspense fallback="Loading...">
-            <HeaderPortfolio logo={data.headerPortfolio.logo} menuHeader={data.headerPortfolio.menuHeader}></HeaderPortfolio>
+            <HeaderPortfolio logo={data.headerPortfolio.logo} 
+            menuHeader={data.headerPortfolio.menuHeader}>
+              
+            </HeaderPortfolio>
           </React.Suspense>
         <Routes>
           <Route path="/" element={<MainPage/>}/>

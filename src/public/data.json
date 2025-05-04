@@ -121,6 +121,15 @@
     },
     "projects": [
       {
+        "img": "https://storage.googleapis.com/svm-docs/portfolio/sportt(400x500).png",
+        "type": "Full Stack Project",
+        "title": "Sportt Ecommerce",
+        "stack": "Next, Tailwind, Shadcn, Nest.js, MercadoPago",
+        "github": "https://github.com/rayo80",
+        "info": "A custom <strong>e-commerce</strong>, designed to meet the specific needs of the client",
+        "url": "https://sporttperu.com/"
+      },
+      {
         "img": "https://storage.googleapis.com/svm-docs/portfolio/aula365(400x500).png",
         "type": "Full Stack Project",
         "title": "Aula 365",
