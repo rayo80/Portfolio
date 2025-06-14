@@ -121,6 +121,15 @@
     },
     "projects": [
       {
+        "img": "https://storage.googleapis.com/svm-docs/portfolio/paraiso(400x500).png",
+        "type": "Frontend Project",
+        "title": "Paraiso Web",
+        "stack": "Next, Shadcn, Tailwind, API Instagram",
+        "github": "https://github.com/rayo80",
+        "info": "More than <strong>website</strong>, includes instagram posts obtained through the use of InstagramAPI",
+        "url": "https://sporttperu.com/"
+      },
+      {
         "img": "https://storage.googleapis.com/svm-docs/portfolio/sportt(400x500).png",
         "type": "Full Stack Project",
         "title": "Sportt Ecommerce",
